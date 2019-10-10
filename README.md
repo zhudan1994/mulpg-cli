@@ -1,5 +1,9 @@
 # mulpg-cli
 多页应用脚手架
+### 安装依赖
+```
+npm install
+```
 ### 生成外链(需要先执行该命令)
 ```
 npm run dll
