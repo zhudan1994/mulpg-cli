@@ -22,7 +22,25 @@ module.exports = merge(baseWebpackConfig, {
       overlay: {
          errors: true,
          warnings: true
-      }
+      },
+      stats: {
+         timings: true,
+         modules: false,
+         assets: true,
+         entrypoints: false,
+         assetsSort: 'field',
+         builtAt: false,
+         cached: false,
+         cachedAssets: false,
+         children: false,
+         chunks: false,
+         chunkGroups: false,
+         chunkModules: false,
+         chunkOrigins: false,
+         performance: true,
+         errors: true,
+         warnings: true,
+     }
    },
    plugins: [
       // 热更新插件
